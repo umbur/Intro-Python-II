@@ -1,6 +1,7 @@
 from room import Room
 
 # Declare all the rooms
+# Initial commit
 
 room = {
     'outside':  Room("Outside Cave Entrance",
