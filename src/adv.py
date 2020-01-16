@@ -122,6 +122,7 @@ def drop_item_function(name):
 while True:
     cmd = input("Input a direction [n,s,e,w] or [q] to quit \n")
     sentence = cmd.split()
+    print(len(sentence))
 
     if len(sentence)==1:
         if cmd=='q':
